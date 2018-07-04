@@ -6,5 +6,5 @@
         <?php wp_head(); ?>
     </head>
     
-    <body>
+    <body <?php body_class(); ?>
         <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
